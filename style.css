@@ -276,12 +276,11 @@ section {
         max-width: 200px;
     }
 
-    navbar {
+    .navbar {
         flex-direction: column;
         height: auto;}
 
     .nav-links{
-        
         width: 100%;
         text-align: center;}
 
