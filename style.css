@@ -9,11 +9,11 @@ body {
     color: #333;
 }
 
-.logo{
+.logo {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: -20px;
+    top: -12px;
     left: -10px;
     width: 250px;
 }
