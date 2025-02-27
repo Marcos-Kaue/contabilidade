@@ -268,6 +268,10 @@ section {
 }
 
 @media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .objective {
         flex-direction: column;
         text-align: center;
@@ -277,19 +281,19 @@ section {
     }
 
     .navbar {
-        flex-direction: column;
-        height: auto;}
+        height: auto;
+    }
 
     .nav-links{
         width: 100%;
         text-align: center;}
 
     .nav-links li{
-        margin: 10px 3px;
+        margin: 10px 4px;
     }
 
     .logo img {
-        width: 150px;
+        width: 120px;
         height: auto;
 }
 }
