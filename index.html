@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplify Contábil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+</head>
+    <header class="hero">
+        <img id="logo" src="imagens/logo.png" alt="">
+        <div class="container">                                    
+        <div class="hero-container">
+                <div class="hero-text">
+                    <h1 class="animate__animated animate__fadeInDown">Bem-vindo à <span>Simplify Contábil</span></h1>
+                    <p class="animate__animated animate__fadeInUp">Transformamos sua gestão financeira com estratégias e eficiência</p>
+                    <a target="_blank" href="https://wa.me/558899144483" class="cta-button animate__animated animate__bounceIn" rel="noopener">Fale comigo!</a>
+        </div>
+        <img src="imagens/foto.png" alt="Imagem de contabilidade" class="hero-image animate__animated animate__fadeInRight">
+            </div>
+        </div>
+    </header>
+    <section class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-box">
+            <div class="service">
+                <i class="fas fa-chart-line"></i>
+                <h3>Consultoria Financeira</h3>
+                <p>Oferecemos consultoria especializada para ajudar sua empresa a crescer de forma sustentável.</p>
+            </div>
+            <div class="service">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Planejamento Tributário</h3>
+                    <p>Planejamos e otimizamos seus impostos para maximizar seus lucros.</p>
+            </div>
+            <div class="service">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Gestão Contábil</h3>
+                    <p>Gerenciamos suas finanças com eficiência e transparência.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="faq-container">
+            <h2 class="faq-title">Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <p class="faq-question">✅ Preciso de um contador para abrir minha empresa?</p>
+                <p class="faq-answer">Sim! Um contador pode ajudar a escolher o melhor regime tributário, registrar sua empresa e garantir que tudo esteja em conformidade com a legislação.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">✅ Qual a diferença entre Simples Nacional, Lucro Presumido e Lucro Real?</p>
+                <p class="faq-answer">
+                    - <b>Simples Nacional:</b> Melhor para pequenas empresas, com impostos unificados e menores alíquotas.<br>
+                    - <b>Lucro Presumido:</b> Indicado para empresas com faturamento médio, com tributação baseada em uma margem presumida de lucro.<br>
+                    - <b>Lucro Real:</b> Ideal para empresas com faturamento alto ou margens variáveis, pois os impostos são calculados sobre o lucro real.
+                </p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">✅ Como posso reduzir a carga tributária da minha empresa?</p>
+                <p class="faq-answer">A melhor forma é escolher o regime tributário adequado e contar com um planejamento tributário eficiente.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">✅ A contabilidade pode ser feita 100% online?</p>
+                <p class="faq-answer">Sim! Com ferramentas digitais, é possível gerenciar documentos, folha de pagamento e declarações fiscais sem precisar sair de casa.</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-question">✅ O que está incluso no serviço de contabilidade mensal?</p>
+                <p class="faq-answer">Inclui escrituração contábil, folha de pagamento, emissão de guias de impostos e suporte contábil.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="formulario">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Assunto:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="button" onclick="abrirWhatssap()">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <a target="_blank" href="https://wa.me/558899144483" rel="noopener"><img src="imagens/icons8-whatsapp-24.png" alt="whatssap"></a>
+            <a  target="_blank" href="https://www.instagram.com/nayaracardoso.contadora?igsh=MTcyN2Z2NDNseHphMw==" rel="noopener"><img src="imagens/icons8-instagram-24.png" alt="instagram"></a>
+            <p>&copy; 2025 Simplify Contábil. Todos os direitos reservados.</p>
+        </div>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
