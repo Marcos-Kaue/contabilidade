@@ -52,6 +52,7 @@ section {
     color: white;
     font-weight: bold;
     transition: 0.3s;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
 
 .nav-links a:hover {
@@ -84,7 +85,7 @@ section {
 
 .hero-text {
     max-width: 500px;
-    text-align: left; /* Alinha o texto à esquerda */
+    text-align: left; 
 }
 
 #hero h1 {
@@ -238,8 +239,8 @@ section {
 
 #contact input,
 #contact textarea {
-    width: 90%;
-    padding: 10px;
+    width: calc(100% - 20px);
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
@@ -270,15 +271,17 @@ section {
         max-width: 200px;
     }
 
+    navbar {
+        flex-direction: column;
+        height: auto;}
+
     .nav-links{
-        align-items: center;
+        flex-direction: column;
         width: 100%;
-    }
+        text-align: center;}
 
     .nav-links li{
-        width: 100%;
-        align-items: center;
-        margin: 0px 5px
+        margin: 10px 0;
     }
 
     .logo img {
