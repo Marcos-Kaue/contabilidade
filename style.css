@@ -276,12 +276,12 @@ section {
         height: auto;}
 
     .nav-links{
-        flex-direction: column;
+        
         width: 100%;
         text-align: center;}
 
     .nav-links li{
-        margin: 10px 0;
+        margin: 10px 5px;
     }
 
     .logo img {
