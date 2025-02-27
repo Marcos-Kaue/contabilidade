@@ -10,8 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     </head>
 </head>
-    <header class="hero">
-        <img class="logo animate__animated animate__fadeInDown" src="imagens/logo.png" alt="">
+    <header id="hero">
+        <nav class="navbar animate__animated animate__fadeInDown">
+            <div class="logo"><img src="imagens/logo.png" alt=""></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
         <div class="container">                                    
         <div class="hero-container">
                 <div class="hero-text">
@@ -23,7 +31,7 @@
             </div>
         </div>
     </header>
-    <section class="services">
+    <section id="services">
         <div class="container">
             <h2>Nossos Serviços</h2>
             <div class="services-box">
@@ -74,7 +82,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <div class="container">
             <h2>Entre em Contato</h2>
             <form id="formulario">

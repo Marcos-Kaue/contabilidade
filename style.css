@@ -7,13 +7,55 @@ body, h1, h2, p, ul {
 body {
     background-color: #f5f5f5;
     color: #333;
+    overflow-x: hidden;
 }
 
-.logo {
-    position: absolute;
-    top: -12px;
-    left: -10px;
-    width: 250px;
+html {
+    scroll-behavior: smooth; /* Faz a rolagem ser suave */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    top: 0;
+    z-index: 99;
+    padding: 10px 20px;
+    
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
 }
 
 .container {
@@ -23,7 +65,7 @@ body {
     text-align: center;
 }
 
-.hero {
+#hero {
     background: linear-gradient(90deg, #022464, #0d78eb);
     color: #fff;
     padding: 80px 0;
@@ -45,15 +87,15 @@ body {
     text-align: left; /* Alinha o texto à esquerda */
 }
 
-.hero h1 {
+#hero h1 {
     font-size: 2.5em;
 }
 
-.hero span {
+#hero span {
     color: #26e2ff;
 }
 
-.hero p {
+#hero p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -81,12 +123,12 @@ body {
     background: #3b8d99;
 }
 
-.services {
-    background: #cfe7f9;
+#services {
+    background: #1E3A5F;
     padding: 50px 0;
 }
 
-.services h2 {
+#services h2 {
     color: #1e3c72;
     margin-bottom: 30px;
 }
@@ -136,8 +178,8 @@ body {
 
 .faq-container {
     max-width: 800px;
-    margin: 0px auto;
-    padding: 20px;
+    margin: 45px auto;
+    padding: 50px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -164,18 +206,17 @@ body {
     color: #555;
 }
 
-.contact {
-    background: #f9f9f9;
+#contact {
     padding: 30px 0;
-    background: #cfe7f9;
+    background: #1E3A5F;
 }
 
-.contact h2 {
-    color: #020c1f;
+#contact h2 {
+    color: white;
     margin-bottom: 20px;
 }
 
-.contact form {
+#contact form {
     max-width: 300px;
     margin: auto;
     background: #fff;
@@ -184,19 +225,19 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact .form-group {
+#contact .form-group {
     margin-bottom: 10px;
     text-align: left;
 }
 
-.contact label {
+#contact label {
     display: block;
     margin-bottom: 5px;
     color: #333;
 }
 
-.contact input,
-.contact textarea {
+#contact input,
+#contact textarea {
     width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -204,7 +245,7 @@ body {
     font-size: 1em;
 }
 
-.contact button {
+#contact button {
     display: inline-block;
     background: #4ca1af;
     color: #fff;
@@ -216,7 +257,7 @@ body {
     transition: background 0.3s ease;
 }
 
-.contact button:hover {
+#contact button:hover {
     background: #3b8d99;
 }
 
@@ -228,8 +269,23 @@ body {
     .objective-image {
         max-width: 200px;
     }
-}
 
+    .nav-links{
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links li{
+        width: 100%;
+        align-items: center;
+        margin: 0px 5px
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+}
+}
 footer {
     background: #1e3c72;
     color: #fff;
